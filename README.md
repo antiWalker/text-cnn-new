@@ -12,7 +12,7 @@
 1 环境
 =
 python3<br>
-tensorflow 1.3以上CPU环境下<br>
+tensorflow 1.15.2以上CPU环境下<br>
 gensim<br>
 jieba<br>
 scipy<br>
@@ -73,7 +73,8 @@ python text_predict.py，提供模型的预测<br><br>
 运行:python text_predict.py <br><br>
 随机从测试数据中挑选了五个样本，输出原文本和它的原文本标签和预测的标签，下图中5个样本预测的都是对的；<br><br>
 ![image](https://github.com/cjymz886/text-cnn/blob/master/images/text_cnn_predict.png)
-
+耗时：
+检测一条：100条差不多2-3秒
 
 9 参考
 =
